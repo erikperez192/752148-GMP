@@ -10,6 +10,7 @@
     <sprites name="Test_Folder">
       <sprite>sprites\sprite1</sprite>
     </sprites>
+    <sprite>sprites\sprite2</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
