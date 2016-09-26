@@ -8,9 +8,9 @@
   <sprites name="sprites">
     <sprite>sprites\sprite0</sprite>
     <sprites name="Test_Folder">
-      <sprite>sprites\sprite1</sprite>
+      <sprite>sprites\Crawler_128</sprite>
+      <sprite>sprites\Crawler_256</sprite>
     </sprites>
-    <sprite>sprites\sprite2</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
