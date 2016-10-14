@@ -55,6 +55,8 @@ image_speed = .6
 
 if object_exists(o_player){
     move_towards_point(o_player.x, o_player.y, 1);
+}else{
+    room_restart();
 }
 </string>
           </argument>
