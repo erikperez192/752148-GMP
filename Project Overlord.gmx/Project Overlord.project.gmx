@@ -37,9 +37,9 @@
     </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\Colby_Test_Room</room>
     <room>rooms\r_test_chamber</room>
     <room>rooms\room1</room>
-    <room>rooms\Colby_Test_Room</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
