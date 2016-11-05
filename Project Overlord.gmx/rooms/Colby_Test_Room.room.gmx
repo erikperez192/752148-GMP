@@ -250,7 +250,30 @@
     <instance objName="o_wall_ruins_trightcorner_v1" x="640" y="384" name="inst_63092268" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="o_wall_ruins_trightcorner_v1" x="608" y="352" name="inst_A02AA757" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
-  <tiles/>
+  <tiles>
+    <tile bgName="bg_ruins_sprites" x="416" y="256" w="32" h="32" xo="32" yo="0" id="10000002" name="inst_2759E1E1" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_ruins_sprites" x="352" y="288" w="64" h="32" xo="64" yo="0" id="10000003" name="inst_A5E82DD5" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_ruins_sprites" x="768" y="0" w="32" h="32" xo="192" yo="192" id="10000004" name="inst_E350203C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_ruins_sprites" x="768" y="32" w="32" h="32" xo="192" yo="192" id="10000005" name="inst_C8A8A68A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_ruins_sprites" x="768" y="64" w="32" h="32" xo="192" yo="192" id="10000006" name="inst_0CEFB80F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_ruins_sprites" x="800" y="64" w="32" h="32" xo="192" yo="192" id="10000007" name="inst_1D6FA6C3" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_ruins_sprites" x="800" y="32" w="32" h="32" xo="192" yo="192" id="10000008" name="inst_F7C347B1" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_ruins_sprites" x="800" y="0" w="32" h="32" xo="192" yo="192" id="10000009" name="inst_BB72C026" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_ruins_sprites" x="832" y="0" w="32" h="32" xo="192" yo="192" id="10000010" name="inst_6C3384F6" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_ruins_sprites" x="832" y="32" w="32" h="32" xo="192" yo="192" id="10000011" name="inst_534BAFB4" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_ruins_sprites" x="832" y="64" w="32" h="32" xo="192" yo="192" id="10000012" name="inst_FE32424E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_ruins_sprites" x="736" y="0" w="32" h="32" xo="160" yo="192" id="10000013" name="inst_85F10269" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_ruins_sprites" x="736" y="32" w="32" h="32" xo="160" yo="192" id="10000014" name="inst_C2987535" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_ruins_sprites" x="736" y="64" w="32" h="32" xo="160" yo="192" id="10000015" name="inst_1B87E42D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_ruins_sprites" x="736" y="96" w="32" h="32" xo="160" yo="224" id="10000016" name="inst_08BA4900" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_ruins_sprites" x="768" y="96" w="32" h="32" xo="192" yo="224" id="10000017" name="inst_EBD71EE6" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_ruins_sprites" x="800" y="96" w="32" h="32" xo="192" yo="224" id="10000018" name="inst_DE93998E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_ruins_sprites" x="864" y="96" w="32" h="32" xo="224" yo="224" id="10000020" name="inst_D85A73B0" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_ruins_sprites" x="832" y="96" w="32" h="32" xo="192" yo="224" id="10000021" name="inst_B8BDAEBD" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_ruins_sprites" x="864" y="64" w="32" h="32" xo="224" yo="192" id="10000022" name="inst_385C721F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_ruins_sprites" x="864" y="32" w="32" h="32" xo="224" yo="192" id="10000023" name="inst_43ECD166" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_ruins_sprites" x="864" y="0" w="32" h="32" xo="224" yo="192" id="10000024" name="inst_8F35C54C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+  </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>
   <PhysicsWorldLeft>0</PhysicsWorldLeft>
