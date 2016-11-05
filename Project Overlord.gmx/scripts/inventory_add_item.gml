@@ -1,5 +1,5 @@
 ///inventory_add_item(x,y, item)
-var xx = argument[0];
+/*var xx = argument[0];
 var yy = argument [1];
 var add_item = argument[2];
 

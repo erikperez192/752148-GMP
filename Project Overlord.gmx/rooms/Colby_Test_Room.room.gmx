@@ -249,6 +249,7 @@
     <instance objName="o_wall_ruins_trightcorner_v1" x="800" y="416" name="inst_1CB037D7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="o_wall_ruins_trightcorner_v1" x="640" y="384" name="inst_63092268" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="o_wall_ruins_trightcorner_v1" x="608" y="352" name="inst_A02AA757" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_player" x="19" y="399" name="inst_D5EAA881" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bg_ruins_sprites" x="416" y="256" w="32" h="32" xo="32" yo="0" id="10000002" name="inst_2759E1E1" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
