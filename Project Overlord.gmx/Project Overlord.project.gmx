@@ -7,7 +7,7 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprites name="Colby_Test_Sprites">
-      <sprite>sprites\sprite23</sprite>
+      <sprite>sprites\sprite8</sprite>
     </sprites>
     <sprite>sprites\s_player</sprite>
     <sprite>sprites\s_floor</sprite>
@@ -22,8 +22,6 @@
     <background>background\bg_ruins_sprites</background>
   </backgrounds>
   <paths name="paths"/>
-  <scripts name="scripts"/>
-  <objects name="objects"/>
   <rooms name="rooms">
     <room>rooms\testy</room>
   </rooms>
