@@ -22,22 +22,10 @@
     <background>background\bg_ruins_sprites</background>
   </backgrounds>
   <paths name="paths"/>
-  <scripts name="scripts">
-    <script>scripts\inventory_add_item.gml</script>
-  </scripts>
-  <objects name="objects">
-    <objects name="Test Object">
-      <object>objects\o_player</object>
-      <object>objects\o_floor</object>
-      <object>objects\o_crawler</object>
-      <object>objects\o_slice</object>
-    </objects>
-    <objects name="Inventory">
-      <object>objects\Inventory</object>
-    </objects>
-  </objects>
+  <scripts name="scripts"/>
+  <objects name="objects"/>
   <rooms name="rooms">
-    <room>rooms\CW_Test_Room</room>
+    <room>rooms\testy</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
