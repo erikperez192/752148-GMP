@@ -8,6 +8,8 @@
   <sprites name="sprites">
     <sprites name="Colby_Test_Sprites">
       <sprite>sprites\sprite8</sprite>
+      <sprite>sprites\largetest</sprite>
+      <sprite>sprites\sprite9</sprite>
     </sprites>
     <sprite>sprites\s_player</sprite>
     <sprite>sprites\s_floor</sprite>
@@ -15,11 +17,13 @@
     <sprite>sprites\r_slice</sprite>
     <sprites name="Test_Folder">
       <sprite>sprites\s_crawler_128</sprite>
+      <sprite>sprites\sprite10</sprite>
       <sprite>sprites\s_crawler_256</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_ruins_sprites</background>
+    <background>background\LargerTileTest</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\path_testy_crawler</path>
@@ -27,6 +31,7 @@
   <objects name="objects">
     <object>objects\obj_enemy</object>
     <object>objects\obj_player</object>
+    <object>objects\testimus</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\testy</room>

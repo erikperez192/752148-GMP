@@ -51,8 +51,9 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="obj_enemy" x="704" y="672" name="inst_A75542D6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_player" x="27" y="688" name="inst_5B666B94" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="testimus" x="480" y="64" name="inst_AAED61D8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_enemy" x="704" y="640" name="inst_D1DB91CB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bg_ruins_sprites" x="0" y="480" w="32" h="32" xo="192" yo="192" id="10000351" name="inst_93C0EE7D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -331,6 +332,14 @@
     <tile bgName="bg_ruins_sprites" x="544" y="416" w="32" h="32" xo="224" yo="96" id="10000733" name="inst_54AFBE41" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_ruins_sprites" x="576" y="416" w="32" h="32" xo="224" yo="96" id="10000734" name="inst_D6D871CD" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_ruins_sprites" x="608" y="416" w="32" h="32" xo="224" yo="96" id="10000735" name="inst_690C7ECB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="LargerTileTest" x="448" y="192" w="64" h="64" xo="64" yo="64" id="10000795" name="inst_0A9E4030" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="LargerTileTest" x="512" y="192" w="64" h="64" xo="64" yo="64" id="10000796" name="inst_DA4DF6DE" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="LargerTileTest" x="576" y="192" w="64" h="64" xo="64" yo="64" id="10000797" name="inst_F5887EBD" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="LargerTileTest" x="640" y="192" w="64" h="64" xo="64" yo="64" id="10000798" name="inst_7D41D8DA" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="LargerTileTest" x="448" y="256" w="64" h="64" xo="64" yo="64" id="10000799" name="inst_70CAD44B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="LargerTileTest" x="512" y="256" w="64" h="64" xo="64" yo="64" id="10000800" name="inst_DD2936FC" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="LargerTileTest" x="576" y="256" w="64" h="64" xo="64" yo="64" id="10000801" name="inst_5B650895" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="LargerTileTest" x="640" y="256" w="64" h="64" xo="64" yo="64" id="10000802" name="inst_EBAF64CA" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_ruins_sprites" x="128" y="608" w="32" h="64" xo="0" yo="64" id="10000540" name="inst_0F55FB65" depth="1000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_ruins_sprites" x="224" y="608" w="32" h="64" xo="0" yo="64" id="10000541" name="inst_015A16A0" depth="1000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_ruins_sprites" x="768" y="544" w="32" h="64" xo="0" yo="64" id="10000559" name="inst_66B452E6" depth="1000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
