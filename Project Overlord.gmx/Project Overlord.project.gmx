@@ -21,9 +21,12 @@
   <backgrounds name="background">
     <background>background\bg_ruins_sprites</background>
   </backgrounds>
-  <paths name="paths"/>
+  <paths name="paths">
+    <path>paths\path_testy_crawler</path>
+  </paths>
   <objects name="objects">
-    <object>objects\object0</object>
+    <object>objects\obj_enemy</object>
+    <object>objects\obj_player</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\testy</room>
