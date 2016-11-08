@@ -20,6 +20,9 @@
       <sprite>sprites\s_right_light</sprite>
       <sprite>sprites\s_zombie_crawler_v1</sprite>
     </sprites>
+    <sprites name="BUttons">
+      <sprite>sprites\spr_button</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_ruins_sprites</background>
@@ -28,6 +31,9 @@
   <paths name="paths">
     <path>paths\path_testy_crawler</path>
   </paths>
+  <fonts name="fonts">
+    <font>fonts\fnt_basic</font>
+  </fonts>
   <objects name="objects">
     <object>objects\obj_enemy_v1</object>
     <object>objects\obj_player</object>
@@ -37,8 +43,13 @@
       <object>objects\obj_left_effect_light</object>
       <object>objects\obj_right_effect_light</object>
     </objects>
+    <objects name="Buttons">
+      <object>objects\obj_button</object>
+      <object>objects\obj_pause</object>
+    </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\room2</room>
     <room>rooms\lg_test_room</room>
     <room>rooms\testy</room>
   </rooms>
