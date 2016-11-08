@@ -9,6 +9,7 @@
     <sprites name="Colby_Test_Sprites">
       <sprite>sprites\PH_Player</sprite>
       <sprite>sprites\PH_LG_player</sprite>
+      <sprite>sprites\s_ruins_ghost_v1</sprite>
     </sprites>
     <sprite>sprites\s_player</sprite>
     <sprite>sprites\s_floor</sprite>
