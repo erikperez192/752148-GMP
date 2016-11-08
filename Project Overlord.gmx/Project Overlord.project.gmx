@@ -29,10 +29,10 @@
     <path>paths\path_testy_crawler</path>
   </paths>
   <objects name="objects">
-    <object>objects\obj_enemy</object>
+    <object>objects\obj_enemy_v1</object>
     <object>objects\obj_player</object>
-    <object>objects\Player_test</object>
-    <object>objects\LG_player_placeholder</object>
+    <object>objects\obj_Player_test</object>
+    <object>objects\obj_LG_player_placeholder</object>
     <objects name="Effects">
       <object>objects\obj_left_effect_light</object>
       <object>objects\obj_right_effect_light</object>
