@@ -7,18 +7,18 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprites name="Colby_Test_Sprites">
-      <sprite>sprites\sprite8</sprite>
-      <sprite>sprites\largetest</sprite>
-      <sprite>sprites\sprite9</sprite>
+      <sprite>sprites\PH_Player</sprite>
+      <sprite>sprites\PH_LG_player</sprite>
     </sprites>
     <sprite>sprites\s_player</sprite>
     <sprite>sprites\s_floor</sprite>
     <sprite>sprites\s_test</sprite>
     <sprite>sprites\r_slice</sprite>
-    <sprites name="Test_Folder">
+    <sprites name="S_Ruins">
       <sprite>sprites\s_crawler_128</sprite>
-      <sprite>sprites\sprite10</sprite>
-      <sprite>sprites\s_crawler_256</sprite>
+      <sprite>sprites\s_left_light</sprite>
+      <sprite>sprites\s_right_light</sprite>
+      <sprite>sprites\s_zombie_crawler_v1</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -31,9 +31,15 @@
   <objects name="objects">
     <object>objects\obj_enemy</object>
     <object>objects\obj_player</object>
-    <object>objects\testimus</object>
+    <object>objects\Player_test</object>
+    <object>objects\LG_player_placeholder</object>
+    <objects name="Effects">
+      <object>objects\obj_left_effect_light</object>
+      <object>objects\obj_right_effect_light</object>
+    </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\lg_test_room</room>
     <room>rooms\testy</room>
   </rooms>
   <help>
