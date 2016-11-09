@@ -19,7 +19,13 @@
       <sprite>sprites\s_left_light</sprite>
       <sprite>sprites\s_right_light</sprite>
       <sprite>sprites\s_zombie_crawler_v1</sprite>
-      <sprite>sprites\s_ruins_ghost_v1</sprite>
+      <sprites name="Ghost_v1">
+        <sprite>sprites\s_ruins_ghost_master</sprite>
+        <sprite>sprites\s_ruins_ghost_spawn</sprite>
+        <sprite>sprites\s_ruins_ghost_fly</sprite>
+        <sprite>sprites\s_ruins_ghost_attack</sprite>
+        <sprite>sprites\s_ruins_ghost_death</sprite>
+      </sprites>
     </sprites>
     <sprites name="BUttons">
       <sprite>sprites\spr_button</sprite>
