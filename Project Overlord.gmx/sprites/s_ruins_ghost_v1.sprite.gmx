@@ -7,10 +7,10 @@
   <coltolerance>0</coltolerance>
   <sepmasks>0</sepmasks>
   <bboxmode>0</bboxmode>
-  <bbox_left>7</bbox_left>
+  <bbox_left>6</bbox_left>
   <bbox_right>127</bbox_right>
-  <bbox_top>21</bbox_top>
-  <bbox_bottom>125</bbox_bottom>
+  <bbox_top>1</bbox_top>
+  <bbox_bottom>127</bbox_bottom>
   <HTile>0</HTile>
   <VTile>0</VTile>
   <TextureGroups>
@@ -28,5 +28,14 @@
     <frame index="5">images\s_ruins_ghost_v1_5.png</frame>
     <frame index="6">images\s_ruins_ghost_v1_6.png</frame>
     <frame index="7">images\s_ruins_ghost_v1_7.png</frame>
+    <frame index="8">images\s_ruins_ghost_v1_8.png</frame>
+    <frame index="9">images\s_ruins_ghost_v1_9.png</frame>
+    <frame index="10">images\s_ruins_ghost_v1_10.png</frame>
+    <frame index="11">images\s_ruins_ghost_v1_11.png</frame>
+    <frame index="12">images\s_ruins_ghost_v1_12.png</frame>
+    <frame index="13">images\s_ruins_ghost_v1_13.png</frame>
+    <frame index="14">images\s_ruins_ghost_v1_14.png</frame>
+    <frame index="15">images\s_ruins_ghost_v1_15.png</frame>
+    <frame index="16">images\s_ruins_ghost_v1_16.png</frame>
   </frames>
 </sprite>
