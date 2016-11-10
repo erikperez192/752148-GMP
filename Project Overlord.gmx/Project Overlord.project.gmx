@@ -46,23 +46,38 @@
     <font>fonts\fnt_basic</font>
   </fonts>
   <objects name="objects">
-    <object>objects\obj_enemy_v1</object>
-    <object>objects\obj_player</object>
-    <object>objects\obj_Player_test</object>
-    <object>objects\obj_LG_player_placeholder</object>
+    <objects name="Buttons">
+      <object>objects\obj_button</object>
+      <object>objects\obj_pause</object>
+      <object>objects\obj_reset</object>
+    </objects>
     <objects name="Effects">
       <object>objects\obj_left_effect_light</object>
       <object>objects\obj_right_effect_light</object>
     </objects>
-    <objects name="Buttons">
-      <object>objects\obj_button</object>
-      <object>objects\obj_pause</object>
+    <object>objects\obj_LG_player_placeholder</object>
+    <object>objects\obj_player</object>
+    <object>objects\obj_Player_test</object>
+    <objects name="Parent class">
+      <object>objects\obj_crawler_parent</object>
+    </objects>
+    <objects name="Enemy">
+      <objects name="Crawler">
+        <object>objects\obj_crawler1</object>
+        <object>objects\obj_crawler2</object>
+        <object>objects\obj_crawler3</object>
+      </objects>
+      <objects name="ghost">
+        <object>objects\obj_ghost</object>
+      </objects>
     </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\room2</room>
-    <room>rooms\lg_test_room</room>
-    <room>rooms\testy</room>
+    <rooms name="Test Rooms">
+      <room>rooms\testy</room>
+      <room>rooms\lg_test_room</room>
+      <room>rooms\room2</room>
+    </rooms>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
