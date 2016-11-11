@@ -54,10 +54,10 @@ image_speed = room_speed / 180
           <argument>
             <kind>1</kind>
             <string>
-plx = obj_LG_player_placeholder.x
-ply = obj_LG_player_placeholder.y
+plx = obj_player.x
+ply = obj_player.y
 
-if object_exists(obj_LG_player_placeholder){
+if object_exists(obj_player){
     move_towards_point(plx, ply, 2);
 }
 

@@ -57,6 +57,15 @@ if image_speed &gt; 0
     {
     if image_index &gt; image_number - 1 sprite_index = s_ruins_ghost_fly;
     }
+    
+var ex, ey;
+ ex = instance_nearest(x, y, obj_player).x;
+ ey = instance_nearest(x, y, obj_player).y;
+ if point_distance(x, y, ex, ey) &lt; 200
+    {
+    sprite_index = s_ruins_ghost_attack
+    }
+
 </string>
           </argument>
         </arguments>
