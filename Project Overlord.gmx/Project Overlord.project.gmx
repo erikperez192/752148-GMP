@@ -9,6 +9,9 @@
     <sprites name="Colby_Test_Sprites">
       <sprite>sprites\PH_Player</sprite>
       <sprite>sprites\PH_LG_player</sprite>
+      <sprite>sprites\s_slime_master</sprite>
+      <sprite>sprites\s_slime_death</sprite>
+      <sprite>sprites\s_slime_walk_left</sprite>
     </sprites>
     <sprite>sprites\s_player</sprite>
     <sprite>sprites\s_floor</sprite>
@@ -29,6 +32,14 @@
         <sprite>sprites\s_zombie_crawler_v1</sprite>
         <sprite>sprites\s_zombie_crawler_v2</sprite>
         <sprite>sprites\s_zombie_crawler_v3</sprite>
+      </sprites>
+      <sprites name="Flame_Skull">
+        <sprite>sprites\s_ruins_flame_Skull_moveleft</sprite>
+        <sprite>sprites\s_ruins_flame_skull_moveright</sprite>
+        <sprite>sprites\s_ruins_flame_skull_deathLeft</sprite>
+        <sprite>sprites\s_ruins_flame_skull_deathright</sprite>
+        <sprite>sprites\s_ruins_flame_skull_turn_right</sprite>
+        <sprite>sprites\s_ruins_flame_skull_turn_left</sprite>
       </sprites>
     </sprites>
     <sprites name="BUttons">
