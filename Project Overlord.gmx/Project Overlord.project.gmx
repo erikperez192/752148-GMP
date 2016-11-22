@@ -52,6 +52,7 @@
   </backgrounds>
   <paths name="paths">
     <path>paths\path_testy_crawler</path>
+    <path>paths\path1</path>
   </paths>
   <fonts name="fonts">
     <font>fonts\fnt_basic</font>
@@ -81,6 +82,15 @@
       <objects name="ghost">
         <object>objects\obj_ghost</object>
       </objects>
+      <objects name="Skull">
+        <object>objects\obj_flame_skull</object>
+      </objects>
+    </objects>
+    <objects name="Spawner">
+      <objects name="Ruin_skull">
+        <object>objects\obj_spawner_skull</object>
+      </objects>
+      <object>objects\obj_spawner_parent</object>
     </objects>
   </objects>
   <rooms name="rooms">
