@@ -69,9 +69,9 @@ var ex, ey;
     }
 
 // Follow the player
-    var ex, ey;
- ex = instance_nearest(x, y, obj_player).x;
- ey = instance_nearest(x, y, obj_player).y;
+  //  var ex, ey;
+ //ex = instance_nearest(x, y, obj_player).x;
+ //ey = instance_nearest(x, y, obj_player).y;
  if point_distance(x, y, ex, ey) &lt; 200
     {
      move_towards_point(obj_player.x, obj_player.y, 2);
@@ -79,9 +79,9 @@ var ex, ey;
  
 // mirror image   
 
-  var ex, ey;
- ex = instance_nearest(x, y, obj_player).x;
- ey = instance_nearest(x, y, obj_player).y;
+  //var ex, ey;
+ //ex = instance_nearest(x, y, obj_player).x;
+// ey = instance_nearest(x, y, obj_player).y;
  if point_distance(x, y, ex, ey) &lt; 200
     {
         if obj_player.x &gt; x {
