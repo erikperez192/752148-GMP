@@ -12,7 +12,8 @@
       <sprite>sprites\s_slime_master</sprite>
       <sprite>sprites\s_slime_death</sprite>
       <sprite>sprites\s_slime_walk_left</sprite>
-      <sprite>sprites\s_heirumn_walk_cycle</sprite>
+      <sprite>sprites\s_hm_walkright</sprite>
+      <sprite>sprites\s_hm_walkleft</sprite>
       <sprite>sprites\s_heirumn_death</sprite>
       <sprite>sprites\s_heirumn_tansform_werecat</sprite>
       <sprite>sprites\s_heirumn_transform_raven</sprite>
