@@ -12,14 +12,11 @@
       <sprite>sprites\s_slime_master</sprite>
       <sprite>sprites\s_slime_death</sprite>
       <sprite>sprites\s_slime_walk_left</sprite>
-      <sprite>sprites\s_hm_walkright</sprite>
-      <sprite>sprites\s_hm_walkleft</sprite>
       <sprite>sprites\s_heirumn_death</sprite>
       <sprite>sprites\s_heirumn_tansform_werecat</sprite>
       <sprite>sprites\s_heirumn_transform_raven</sprite>
       <sprite>sprites\s_heirumn_transform_naga</sprite>
       <sprite>sprites\s_heirumn_basic_sword_atk</sprite>
-      <sprite>sprites\s_heirumn_jump</sprite>
       <sprite>sprites\s_heirumn_risingsword_atk</sprite>
     </sprites>
     <sprite>sprites\s_player</sprite>
@@ -49,6 +46,11 @@
         <sprite>sprites\s_ruins_flame_skull_deathright</sprite>
         <sprite>sprites\s_ruins_flame_skull_turn_right</sprite>
         <sprite>sprites\s_ruins_flame_skull_turn_left</sprite>
+      </sprites>
+      <sprites name="Main_Character">
+        <sprite>sprites\s_hm_walkright</sprite>
+        <sprite>sprites\s_hm_walkleft</sprite>
+        <sprite>sprites\s_hm_jump</sprite>
       </sprites>
     </sprites>
     <sprites name="BUttons">
