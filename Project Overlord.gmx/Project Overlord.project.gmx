@@ -7,17 +7,16 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprites name="Colby_Test_Sprites">
-      <sprite>sprites\PH_Player</sprite>
-      <sprite>sprites\PH_LG_player</sprite>
-      <sprite>sprites\s_slime_master</sprite>
-      <sprite>sprites\s_slime_death</sprite>
-      <sprite>sprites\s_slime_walk_left</sprite>
-      <sprite>sprites\s_heirumn_death</sprite>
-      <sprite>sprites\s_heirumn_tansform_werecat</sprite>
-      <sprite>sprites\s_heirumn_transform_raven</sprite>
-      <sprite>sprites\s_heirumn_transform_naga</sprite>
-      <sprite>sprites\s_heirumn_basic_sword_atk</sprite>
-      <sprite>sprites\s_heirumn_risingsword_atk</sprite>
+      <sprite>sprites\spr_player</sprite>
+      <sprite>sprites\spr_slime_master</sprite>
+      <sprite>sprites\spr_slime_death</sprite>
+      <sprite>sprites\spr_slime_walk_left</sprite>
+      <sprite>sprites\spr_player_death</sprite>
+      <sprite>sprites\spr_trans_werecat</sprite>
+      <sprite>sprites\spr_trans_raven</sprite>
+      <sprite>sprites\spr_trans_naga</sprite>
+      <sprite>sprites\spr_player_sword_attack</sprite>
+      <sprite>sprites\spr_rising_sword_attack</sprite>
     </sprites>
     <sprite>sprites\s_player</sprite>
     <sprite>sprites\s_floor</sprite>
@@ -48,14 +47,15 @@
         <sprite>sprites\s_ruins_flame_skull_turn_left</sprite>
       </sprites>
       <sprites name="Main_Character">
-        <sprite>sprites\s_hm_walkright</sprite>
+        <sprite>sprites\spr_player_movement</sprite>
         <sprite>sprites\s_hm_walkleft</sprite>
-        <sprite>sprites\s_hm_jump</sprite>
+        <sprite>sprites\spr_player_jump</sprite>
       </sprites>
     </sprites>
     <sprites name="BUttons">
       <sprite>sprites\spr_button</sprite>
     </sprites>
+    <sprite>sprites\spr_platform_masking</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_ruins_sprites</background>
@@ -103,11 +103,16 @@
       </objects>
       <object>objects\obj_spawner_parent</object>
     </objects>
+    <objects name="Masking tools">
+      <object>objects\obj_wall</object>
+      <object>objects\obj_wall_2</object>
+      <object>objects\parent_wall</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <rooms name="Test Rooms">
       <room>rooms\room2</room>
-      <room>rooms\lg_test_room</room>
+      <room>rooms\rm_test_chamber</room>
       <room>rooms\testy</room>
     </rooms>
   </rooms>

@@ -51,7 +51,7 @@ text = "start";
           <argument>
             <kind>1</kind>
             <string>/// Start the game
-room_goto(lg_test_room);
+room_goto(rm_test_chamber);
 </string>
           </argument>
         </arguments>
