@@ -7,10 +7,10 @@
   <coltolerance>0</coltolerance>
   <sepmasks>0</sepmasks>
   <bboxmode>0</bboxmode>
-  <bbox_left>23</bbox_left>
-  <bbox_right>98</bbox_right>
-  <bbox_top>15</bbox_top>
-  <bbox_bottom>95</bbox_bottom>
+  <bbox_left>34</bbox_left>
+  <bbox_right>93</bbox_right>
+  <bbox_top>20</bbox_top>
+  <bbox_bottom>127</bbox_bottom>
   <HTile>0</HTile>
   <VTile>0</VTile>
   <TextureGroups>
@@ -20,6 +20,6 @@
   <width>128</width>
   <height>128</height>
   <frames>
-    <frame index="0">images\spr_player_jump_0.png</frame>
+    <frame index="0">images\spr_player_fall_0.png</frame>
   </frames>
 </sprite>

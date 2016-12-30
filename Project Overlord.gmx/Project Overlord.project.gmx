@@ -49,7 +49,10 @@
       <sprites name="Main_Character">
         <sprite>sprites\spr_player_movement</sprite>
         <sprite>sprites\s_hm_walkleft</sprite>
+        <sprite>sprites\spr_player_land</sprite>
         <sprite>sprites\spr_player_jump</sprite>
+        <sprite>sprites\spr_player_fall</sprite>
+        <sprite>sprites\Do_not_Edit_player_jump</sprite>
       </sprites>
     </sprites>
     <sprites name="BUttons">
