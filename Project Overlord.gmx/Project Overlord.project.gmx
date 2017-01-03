@@ -59,6 +59,9 @@
       <sprite>sprites\spr_button</sprite>
     </sprites>
     <sprite>sprites\spr_platform_masking</sprite>
+    <sprites name="Menu">
+      <sprite>sprites\spr_click_button</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_ruins_sprites</background>
@@ -68,6 +71,9 @@
     <path>paths\path_testy_crawler</path>
     <path>paths\path1</path>
   </paths>
+  <scripts name="scripts">
+    <script>scripts\scr_menu.gml</script>
+  </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_basic</font>
   </fonts>
@@ -110,6 +116,9 @@
       <object>objects\obj_wall</object>
       <object>objects\obj_wall_2</object>
       <object>objects\parent_wall</object>
+    </objects>
+    <objects name="Menu">
+      <object>objects\obj_menu</object>
     </objects>
   </objects>
   <rooms name="rooms">
