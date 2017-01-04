@@ -61,7 +61,7 @@
     <instance objName="obj_right_effect_light" x="1280" y="768" name="inst_9B8B0F3E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_right_effect_light" x="1024" y="576" name="inst_D83723DE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_right_effect_light" x="128" y="768" name="inst_9A6FF7DE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_crawler1" x="640" y="832" name="inst_679B7C11" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_crawler1" x="320" y="832" name="inst_679B7C11" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_ghost" x="1408" y="768" name="inst_A1C150C1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_reset" x="64" y="0" name="inst_FAF8805D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_reset" x="-64" y="1024" name="inst_F8E6F33D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

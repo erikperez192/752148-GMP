@@ -1,5 +1,4 @@
-#define scr_text
-//scr_text("text",speed,x,y);
+///scr_text("text",speed,x,y);
 
 txt = instance_create(argument2, argument3, obj_text);
 with (txt){
@@ -7,7 +6,7 @@ with (txt){
     maxlength = view_wview[0];
     text = argument0;
     spd = argument1;
-    font = f_des
+    font = fnt_basic;
     
     text_length = string_length(text);
     font_size = font_get_size(font);
@@ -20,4 +19,3 @@ with (txt){
     boxwidth = text_width + (padding*2);
     boxheight = text_height + (padding*2);
 }
-

@@ -73,6 +73,7 @@
   </paths>
   <scripts name="scripts">
     <script>scripts\scr_menu.gml</script>
+    <script>scripts\scr_text.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_basic</font>
@@ -119,6 +120,8 @@
     </objects>
     <objects name="Menu">
       <object>objects\obj_menu</object>
+      <object>objects\obj_text</object>
+      <object>objects\obj_text_spawner</object>
     </objects>
   </objects>
   <rooms name="rooms">
