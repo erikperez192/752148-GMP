@@ -31,6 +31,7 @@ vsp = 0;
 hsp = 0;
 grav = 0.5;
 grounded = 0;
+state = move_state;
 
 image_speed = room_speed / 180
 
@@ -57,8 +58,10 @@ image_speed = room_speed / 180
           <argument>
             <kind>1</kind>
             <string>/// Movement
+script_execute(state);
 
-key_left = keyboard_check_direct(ord("A"));
+
+/*key_left = keyboard_check_direct(ord("A"));
 key_right = keyboard_check_direct(ord("D"));
 key_lm = keyboard_check_direct(mb_left);
 key_jump = keyboard_check_direct(vk_space);
@@ -92,10 +95,6 @@ if (key_jump){
 
 vsp += grav;
 
-/*if (key_lm){
-    sprite_index = spr_player_sword_attack; //TODO fix the animation so that the left mouse click does an attack everytime is press and returns to idle when is done
-}*/
-
 // vertical collision
 if place_meeting(x,y+vsp,parent_wall){
     while ( !place_meeting(x,y+1,parent_wall)) y+=1;
@@ -117,13 +116,19 @@ x += hsp;
 y += vsp;
 
 //animate
-//if (move!=0) image_xscale = move; // This code conflicts with another movement code
+//if (move!=0) image_xscale = move; // This code conflicts with another movement code //do not used
 if (place_meeting(x,y+1,parent_wall)){
     if (hsp!=0) sprite_index = spr_player_movement; else sprite_index = spr_player
 }else{
     if (vsp &lt; 0) sprite_index = spr_player_jump; else sprite_index = spr_player_fall;
 }
 
+/*if (key_lm){
+    sprite_index = spr_trans_naga; //TODO fix the animation so that the left mouse click does an attack everytime is press and returns to idle when is done
+}*/
+
+
+/////////////////////////////////////////////////////////////
 // Experimental code for switching animations
 /*if (grounded){
     if (hsp==0){
@@ -137,6 +142,10 @@ if (place_meeting(x,y+1,parent_wall)){
     }
 }*/ 
 
+
+
+
+// simple moving code
 /*{
  switch (keyboard_key)  // Working movement code
     {
@@ -167,7 +176,7 @@ if (place_meeting(x,y+1,parent_wall)){
         </arguments>
       </action>
     </event>
-    <event eventtype="10" enumb="68">
+    <event eventtype="5" enumb="32">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -184,15 +193,15 @@ if (place_meeting(x,y+1,parent_wall)){
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>/// return to idle
+            <string>///change state
 
-sprite_index = spr_player
+state = jump_state;
 </string>
           </argument>
         </arguments>
       </action>
     </event>
-    <event eventtype="10" enumb="65">
+    <event eventtype="6" enumb="53">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -209,9 +218,9 @@ sprite_index = spr_player
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>/// return to idle
+            <string>///attack
 
-sprite_index = spr_player
+state = attack_state;
 </string>
           </argument>
         </arguments>

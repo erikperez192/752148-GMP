@@ -6,6 +6,14 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
+    <sprites name="Main_Character">
+      <sprite>sprites\spr_player_movement</sprite>
+      <sprite>sprites\s_hm_walkleft</sprite>
+      <sprite>sprites\spr_player_land</sprite>
+      <sprite>sprites\spr_player_jump</sprite>
+      <sprite>sprites\spr_player_fall</sprite>
+      <sprite>sprites\Do_not_Edit_player_jump</sprite>
+    </sprites>
     <sprites name="Colby_Test_Sprites">
       <sprite>sprites\spr_player</sprite>
       <sprite>sprites\spr_slime_master</sprite>
@@ -16,6 +24,7 @@
       <sprite>sprites\spr_trans_raven</sprite>
       <sprite>sprites\spr_trans_naga</sprite>
       <sprite>sprites\spr_player_sword_attack</sprite>
+      <sprite>sprites\spr_hit_box</sprite>
       <sprite>sprites\spr_rising_sword_attack</sprite>
     </sprites>
     <sprite>sprites\s_player</sprite>
@@ -46,14 +55,6 @@
         <sprite>sprites\s_ruins_flame_skull_turn_right</sprite>
         <sprite>sprites\s_ruins_flame_skull_turn_left</sprite>
       </sprites>
-      <sprites name="Main_Character">
-        <sprite>sprites\spr_player_movement</sprite>
-        <sprite>sprites\s_hm_walkleft</sprite>
-        <sprite>sprites\spr_player_land</sprite>
-        <sprite>sprites\spr_player_jump</sprite>
-        <sprite>sprites\spr_player_fall</sprite>
-        <sprite>sprites\Do_not_Edit_player_jump</sprite>
-      </sprites>
     </sprites>
     <sprites name="BUttons">
       <sprite>sprites\spr_button</sprite>
@@ -72,8 +73,17 @@
     <path>paths\path1</path>
   </paths>
   <scripts name="scripts">
-    <script>scripts\scr_menu.gml</script>
-    <script>scripts\scr_text.gml</script>
+    <scripts name="Menu Scripts">
+      <script>scripts\scr_text.gml</script>
+      <script>scripts\scr_menu.gml</script>
+    </scripts>
+    <scripts name="Player States">
+      <script>scripts\scr_getinputs.gml</script>
+      <script>scripts\move_state.gml</script>
+      <script>scripts\script_collision.gml</script>
+      <script>scripts\jump_state.gml</script>
+      <script>scripts\attack_state.gml</script>
+    </scripts>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_basic</font>
@@ -123,6 +133,7 @@
       <object>objects\obj_text</object>
       <object>objects\obj_text_spawner</object>
     </objects>
+    <object>objects\obj_hit_box</object>
   </objects>
   <rooms name="rooms">
     <rooms name="Test Rooms">
