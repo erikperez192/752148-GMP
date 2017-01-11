@@ -7,6 +7,7 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprites name="Main_Character">
+      <sprite>sprites\spr_player</sprite>
       <sprite>sprites\spr_player_movement</sprite>
       <sprite>sprites\s_hm_walkleft</sprite>
       <sprite>sprites\spr_player_land</sprite>
@@ -15,7 +16,6 @@
       <sprite>sprites\Do_not_Edit_player_jump</sprite>
     </sprites>
     <sprites name="Colby_Test_Sprites">
-      <sprite>sprites\spr_player</sprite>
       <sprite>sprites\spr_slime_master</sprite>
       <sprite>sprites\spr_slime_death</sprite>
       <sprite>sprites\spr_slime_walk_left</sprite>

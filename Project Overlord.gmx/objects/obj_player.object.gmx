@@ -3,7 +3,7 @@
   <spriteName>spr_player</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>0</depth>
+  <depth>-15</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -33,6 +33,9 @@ grav = 0.5;
 grounded = 0;
 state = move_state;
 
+key_down = 0;
+
+
 image_speed = room_speed / 180
 
 </string>
@@ -58,11 +61,12 @@ image_speed = room_speed / 180
           <argument>
             <kind>1</kind>
             <string>/// Movement
-script_execute(state);
+//script_execute(state);
 
 
-/*key_left = keyboard_check_direct(ord("A"));
+key_left = keyboard_check_direct(ord("A"));
 key_right = keyboard_check_direct(ord("D"));
+key_down = keyboard_check_direct(ord("S"));
 key_lm = keyboard_check_direct(mb_left);
 key_jump = keyboard_check_direct(vk_space);
 
@@ -71,13 +75,13 @@ move = key_left + key_right;
 
 // move left and right
 if (key_left){
-    hsp = -4;
+    hsp = -7;
     image_xscale = -1;
     sprite_index = spr_player_movement;
 }
 
 if (key_right){
-    hsp = 4;
+    hsp = 7;
     image_xscale = 1;
     sprite_index = spr_player_movement;
 }
@@ -89,7 +93,7 @@ if ((key_right &amp;&amp; key_left) or (!key_right &amp;&amp; !key_left)){
 
 // Jumping
 if (key_jump){
-    if (grounded) vsp = -10;
+    if (grounded) vsp = -12;
     //sprite_index = spr_player_jump;
 }
 
