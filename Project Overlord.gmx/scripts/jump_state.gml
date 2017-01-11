@@ -4,7 +4,7 @@ move_state()
 
 // Jumping
 if (key_jump){
-    if (grounded) vsp = -10;
+    if (grounded) vsp = -15;
     //sprite_index = spr_player_jump;
 }
 

@@ -60,6 +60,9 @@
       <sprite>sprites\spr_button</sprite>
     </sprites>
     <sprite>sprites\spr_platform_masking</sprite>
+    <sprite>sprites\spr_pass_wall</sprite>
+    <sprite>sprites\spr_next_room</sprite>
+    <sprite>sprites\spr_prev_level</sprite>
     <sprites name="Menu">
       <sprite>sprites\spr_click_button</sprite>
     </sprites>
@@ -125,6 +128,9 @@
     </objects>
     <objects name="Masking tools">
       <object>objects\obj_wall</object>
+      <object>objects\obj_pass_walls</object>
+      <object>objects\obj_next_level</object>
+      <object>objects\obj_prev_level</object>
       <object>objects\obj_wall_2</object>
       <object>objects\parent_wall</object>
     </objects>
@@ -140,11 +146,11 @@
       <room>rooms\room2</room>
       <room>rooms\rm_test_chamber</room>
       <room>rooms\testy</room>
-      <room>rooms\L1A</room>
-      <room>rooms\L1B</room>
-      <room>rooms\L1C</room>
-      <room>rooms\L1D</room>
-      <room>rooms\L1E</room>
+      <room>rooms\rm_L1A</room>
+      <room>rooms\rm_L1B</room>
+      <room>rooms\rm_L1C</room>
+      <room>rooms\rm_L1D</room>
+      <room>rooms\rm_L1E</room>
     </rooms>
   </rooms>
   <help>
